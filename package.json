@@ -1,0 +1,22 @@
+{
+  "name": "hilocoinbot",
+  "version": "1.0.0",
+  "description": "HiloCoin — Telegram airdrop bot with Mini App, referrals and admin panel",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "better-sqlite3": "^13.2.0",
+    "dotenv": "^18.0.10",
+    "express": "^4.22.3",
+    "grammy": "^1.46.0"
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE58A"/>
+      <stop offset=".5" stop-color="#F7B528"/>
+      <stop offset="1" stop-color="#B86E05"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD54F"/>
+      <stop offset="1" stop-color="#E89A0C"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF8DC"/>
+      <stop offset="1" stop-color="#FFE7A0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="url(#rim)"/>
+  <circle cx="64" cy="64" r="49" fill="url(#face)"/>
+  <circle cx="64" cy="64" r="49" fill="none" stroke="#B86E05" stroke-opacity=".35" stroke-width="2" stroke-dasharray="3 5"/>
+  <path d="M45 38h10v21h18V38h10v52H73V68H55v22H45z" fill="#9A5A03" fill-opacity=".35" transform="translate(1.5 2)"/>
+  <path d="M45 38h10v21h18V38h10v52H73V68H55v22H45z" fill="url(#mark)"/>
+  <path d="M30 40a40 40 0 0 1 30-17" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+</svg>
